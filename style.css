@@ -53,8 +53,70 @@ h3 {
     padding: 10px 24px;
     cursor: pointer;
 }
-#steps {
+#instructions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 1px solid rgb(16, 15, 15);
     border-radius: 12px;
-    padding: 20px 24px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: rgb(255, 255, 255);
+    gap: 40px;
+}
+#steps {
+    flex: 1;
+}
+#steps img {
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+#qr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+#qr a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(35, 44, 49);
+    border-bottom: 2px solid rgb(37, 211, 102);
+}
+#qr img {
+    width: 200px;
+    height: auto;
+}
+#account {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: #444;
+}
+input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+input[type="checkbox"]:checked::after {
+  content: '✔';
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: -2px;
+  left: 2px;
 }
