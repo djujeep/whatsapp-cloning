@@ -120,3 +120,17 @@ input[type="checkbox"]:checked::after {
   top: -2px;
   left: 2px;
 }
+#account a {
+    text-decoration: none;
+    color: rgb(20, 31, 51);
+    border-bottom: 2px solid #25D366;
+}
+#account p {
+    color: rgb(20, 31, 51);
+}
+#encrypted {
+    color: rgb(98, 104, 108);
+}
+a:hover {
+    background-color: #a8f0cb;
+}
