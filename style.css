@@ -1,136 +1,54 @@
 body {
-    background-color: #fcf5EB;
-    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-family: 'segeo UI' , Helvetica, Arial, sans-serif;
 }
 #logo {
     display: flex;
     align-items: center;
 }
-#logo img {
+#logo img{
     width: 30px;
 }
 #logo span {
     color: rgb(37, 211, 102);
     font-weight: 700;
-    font-size:22px;
+    font-size: 22px;
 }
 #download {
-    display: flex;
     justify-content: space-between;
+    display: flex;
     border: 1px solid rgb(16, 15, 15);
     border-radius: 12px;
     padding: 20px 24px;
-    align-items: center;
-    gap: 16x;
     max-width: 900px;
     margin: 40px auto;
+    gap: 16px;
     background-color: rgb(255, 255, 255);
 }
 #download-content {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 #download img {
-    width: 48px;
+    width: 50px;
     flex-shrink: 0;
 }
 h3 {
     margin: 0;
-    font-weight: 600;
-    color: rgb(62, 58, 69);
-}
-#download p {
-    margin: 0;
-    font-size: 14px;
     color: rgb(31, 38, 40);
 }
 #download-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgb(37, 211, 102);
     color: black;
-    border-radius: 20px;
-    padding: 10px 24px;
+    border-radius: 30px;
+    padding: 15px;
     cursor: pointer;
-}
-#instructions {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid rgb(16, 15, 15);
-    border-radius: 12px;
-    padding: 30px;
-    max-width: 900px;
-    margin: 40px auto;
-    background-color: rgb(255, 255, 255);
-    gap: 40px;
-}
-#steps {
-    flex: 1;
-}
-#steps img {
-    width: 25px;
-    vertical-align: middle;
-    margin-left: 5px;
-}
-#qrcode {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-}
-#qrcode a {
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
-    color: rgb(35, 44, 49);
-    border-bottom: 2px solid rgb(37, 211, 102);
-}
-#qrcode img {
-    width: 200px;
-    height: auto;
-}
-#account {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.95rem;
-    color: #444;
-}
-input[type="checkbox"] {
-  appearance: none;
-  width: 18px;
-  height: 18px;
-  border: 2px solid;
-  border-radius: 4px;
-  cursor: pointer;
-  position: relative;
-  vertical-align: middle;
+    height: 50px;
+    width: 100px;
 }
 
-input[type="checkbox"]:checked {
-  background-color: #25D366;
-  border-color: #25D366;
-}
 
-input[type="checkbox"]:checked::after {
-  content: '✔';
-  color: white;
-  font-size: 14px;
-  position: absolute;
-  top: -2px;
-  left: 2px;
-}
-#account a {
-    text-decoration: none;
-    color: rgb(20, 31, 51);
-    border-bottom: 2px solid #25D366;
-}
-#account p {
-    color: rgb(20, 31, 51);
-}
-#encrypted {
-    color: rgb(98, 104, 108);
-}
-a:hover {
-    background-color: #a8f0cb;
-}
