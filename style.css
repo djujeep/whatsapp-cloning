@@ -73,20 +73,20 @@ h3 {
     vertical-align: middle;
     margin-left: 5px;
 }
-#qr {
+#qrcode {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
 }
-#qr a {
+#qrcode a {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
     color: rgb(35, 44, 49);
     border-bottom: 2px solid rgb(37, 211, 102);
 }
-#qr img {
+#qrcode img {
     width: 200px;
     height: auto;
 }
