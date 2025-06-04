@@ -1,1 +1,2 @@
-# whatsapp-cloning
+I literally just cloned whatsapp Login page myself fr...
+it took time due to technical issues but its resolved now and i can finally host this page
